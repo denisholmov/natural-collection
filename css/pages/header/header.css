@@ -1,0 +1,43 @@
+.header{
+    background-color: var(--dark-pine-green);
+    padding: 18px 0 18px 0;
+}
+
+.header__container{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+.header__logo img {
+    width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+.header__menu{
+    display: flex;
+    gap: 296px;
+    align-items: center;
+}
+
+.header__list{
+    display: flex;
+    gap: 64px;
+
+    font-size: 16px;
+}
+
+.header__link{
+    color: var(--white);
+}
+
+.menu-buttons__list{
+    display: flex;
+    gap: 64px;
+}
+
+.menu-buttons__item img {
+    vertical-align: middle;
+}
