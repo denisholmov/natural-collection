@@ -1,0 +1,18 @@
+.get-started{
+    background-image: url("../../../images/get-started/backgorund-get-started.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.get-started__container{
+    padding-top: 115px;
+    padding-bottom: 115px;
+}
+
+.get-started__title{
+    font-family: Cormorant, sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    color: var(--white);
+    line-height: 1;
+}
