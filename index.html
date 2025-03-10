@@ -1,56 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/global/index.css">
-    <link rel="stylesheet" href="./css/pages/index.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/global/index.css" />
+    <link rel="stylesheet" href="./css/pages/index.css" />
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="wrapper">
       <header class="header">
         <div class="header__container">
-            <div class="header__logo">
-                <img src="./images/header/logo.png" alt="Логотип">
-            </div>
+          <div class="header__logo">
+            <img src="./images/header/logo.png" alt="Логотип" />
+          </div>
 
-           <div class="header__menu">
+          <div class="header__menu">
             <nav class="header__nav">
-                <ul class="header__list">
-                    <li class="header__item"><a class="header__link" href="#">Каталог</a></li>
-                    <li class="header__item"><a class="header__link" href="#">Галерея</a></li>
-                    <li class="header__item"><a class="header__link" href="#">О лаборатории</a></li>
-                    <li class="header__item"><a class="header__link" href="#">Контакты</a></li>
-                </ul>
+              <ul class="header__list">
+                <li class="header__item"><a class="header__link" href="#">Каталог</a></li>
+                <li class="header__item"><a class="header__link" href="#">Галерея</a></li>
+                <li class="header__item"><a class="header__link" href="#">О лаборатории</a></li>
+                <li class="header__item"><a class="header__link" href="#">Контакты</a></li>
+              </ul>
             </nav>
 
             <div class="header__menu-buttons menu-buttons">
-                <ul class="menu-buttons__list">
-                    <li class="menu-buttons__item"><img src="./images/header/search.svg" alt="Поиск"></li>
-                    <li class="menu-buttons__item"><img src="./images/header/log-in.svg" alt="Вход"></li>
-                </ul>
+              <ul class="menu-buttons__list">
+                <li class="menu-buttons__item"><img src="./images/header/search.svg" alt="Поиск" /></li>
+                <li class="menu-buttons__item"><img src="./images/header/log-in.svg" alt="Вход" /></li>
+              </ul>
             </div>
-           </div>
+          </div>
         </div>
       </header>
 
       <main class="main">
         <section class="get-started">
-            <div class="get-started__container">
-                <h1 class="get-started__title">Крупнейшая коллекция природных артефактов</h1>
-                <p class="get-started__text">
-                    Являясь всего лишь частью общей картины, интерактивные прототипы, которые представляют собой яркий пример европейского типа политической и социальной культуры.
-                </p>
-                <div class="get-started__link">
-                    <a href="#">
-                        <span>Исследовать</span>
-                        <img src="#" alt="">
-                    </a>
+          <div class="get-started__container">
+            <h1 class="get-started__title">Крупнейшая коллекция природных артефактов</h1>
+            <p class="get-started__text">
+              Являясь всего лишь частью общей картины, интерактивные прототипы, которые представляют собой яркий пример
+              европейского типа политической и социальной культуры.
+            </p>
+
+            <a href="#" class="get-started__link">
+              <span>Исследовать</span>
+              <img src="./images/get-started/arrow.png" alt="Стрелка вправо" />
+            </a>
+          </div>
+        </section>
+
+        <section class="artefacts">
+          <div class="artefacts__container">
+            <ul class="artefacts__gallery gallery">
+              <li class="gallery__item">
+                <div class="gallery__image"><img src="#" alt="" /> <img src="" alt="" /></div>
+                <div class="gallery__inf-artefact">
+                  <h3>Fig. 1 (plant)</h3>
+                  <p>
+                    Имеется спорная точка зрения, гласящая примерно следующее: активно развивающиеся страны третьего
+                    мира своевременно верифицированы.
+                  </p>
+                  <button>Подробнее</button>
                 </div>
+              </li>
+              <li class="gallery__item"></li>
+              <li class="gallery__item"></li>
+              <li class="gallery__item"></li>
+            </ul>
+
+            <div class="artefacts__slider">
+              <button><img src="./images/get-started/arrow-left.png" alt="Стрелка влево" /></button>
+              <span>1 из 3</span>
+              <button><img src="./images/get-started/arrow-right.png" alt="Стрелка вправо" /></button>
             </div>
+          </div>
         </section>
       </main>
     </div>
-</body>
+  </body>
 </html>
