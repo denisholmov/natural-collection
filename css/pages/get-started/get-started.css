@@ -10,6 +10,7 @@
 }
 
 .get-started__title {
+  width: 688px;
   margin-bottom: 16px;
 
   font-family: Cormorant, sans-serif;
@@ -20,6 +21,7 @@
 }
 
 .get-started__text {
+  width: 688px;
   padding-bottom: 24px;
 
   font-family: Open-Sans;

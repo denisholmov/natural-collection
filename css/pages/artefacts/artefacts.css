@@ -1,0 +1,26 @@
+.artefacts{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: var(--dark-pine-green);
+}
+
+.artefacts__container{
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+}
+
+.gallery{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.gallery__item{
+    border: 1px solid var(--black-stallion);
+}
+
+.gallery__image img{
+    width: 255px;
+    height: auto;
+}
