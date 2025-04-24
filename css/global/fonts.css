@@ -31,5 +31,6 @@
 @font-face {
     font-family: "Cormorant";
     font-weight: 700; /*bold italic*/
+    font-style: italic;
     src: url("../../fonts/Cormorant-BoldItalic.ttf");
 }
