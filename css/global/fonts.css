@@ -1,11 +1,35 @@
 @font-face {
     font-family: "Open-Sans";
-    font-weight: 700;
+    font-weight: 700; /*bold*/
     src: url("../../fonts/OpenSans-Bold.ttf");
 }
 
 @font-face {
     font-family: "Open-Sans";
-    font-weight: 400;
+    font-weight: 400; /*normal - regular*/
     src: url("../../fonts/OpenSans-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Open-Sans";
+    font-weight: 600; /*semiBold*/
+    src: url("../../fonts/OpenSans-SemiBold.ttf");
+}
+
+@font-face {
+    font-family: "Cormorant";
+    font-weight: 700;
+    src: url("../../fonts/Cormorant-Bold.ttf");
+}
+
+@font-face {
+    font-family: "Cormorant";
+    font-weight: 400;
+    src: url("../../fonts/Cormorant-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Cormorant";
+    font-weight: 700; /*bold italic*/
+    src: url("../../fonts/Cormorant-BoldItalic.ttf");
 }
