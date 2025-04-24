@@ -13,14 +13,66 @@
 .gallery{
     display: flex;
     gap: 30px;
-    align-items: center;
+    align-items: stretch; 
 }
 
 .gallery__item{
     border: 1px solid var(--black-stallion);
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
 }
 
 .gallery__image img{
     width: 255px;
     height: auto;
+}
+
+.gallery__inf-artefact{
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+
+.gallery__title{
+    font-family: Cormorant, sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--white);
+}
+
+.gallery__text{
+    margin-bottom: 8px;
+    font-family: "Open-Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--boredom);
+    line-height: 1.5;
+}
+
+.gallery__btn{
+    padding: 10px 28px;
+    border: 1px solid var(--energos);
+    background-color: inherit;
+    
+
+    color: var(--energos);
+    font-family: "Open-Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.artefacts__slider{
+    text-align: center;
+    color: var(--white);
+    font-family: Cormorant, sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.artefacts__slider button{
+    background-color: inherit;
+    text-align: center;
 }
