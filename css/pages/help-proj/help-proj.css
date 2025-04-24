@@ -1,0 +1,55 @@
+.help-proj{
+    background-image: url("../../../images/help-proj/back-flower.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.help-proj__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 16px;
+
+    padding-top: 60px;
+    padding-bottom: 60px;
+    color: var(--white);
+}
+
+.help-proj__title{
+    font-size: 48px;
+    font-family: Cormorant, sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.help-proj__text{
+    max-width: 825px;
+    margin-bottom: 8px;
+
+    font-size: 16px;
+    font-family: "Open-Sans", sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.help-proj__form{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    max-width: 350px;
+}
+
+.help-proj input{
+    padding: 10px 16px;
+    font-size: 16px;
+}
+
+.help-proj__btn{
+    align-self: flex-start;
+    
+    padding: 11px 26px;
+    background-color: var(--energos);
+    font-family: "Open-Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+}
