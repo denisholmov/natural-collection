@@ -1,7 +1,9 @@
-@import url("./common.css");
-@import url("./header/header.css");
-@import url("./get-started/get-started.css");
-@import url("./artefacts/artefacts.css");
-@import url("./new-artefacts/new-artefacts.css");
-@import url("./help-proj/help-proj.css");
-@import url("./footer/footer.css");
+@import url('./common.css');
+@import url('./header/header.css');
+@import url('./get-started/get-started.css');
+@import url('./artefacts/artefacts.css');
+@import url('./new-artefacts/new-artefacts.css');
+@import url('./help-proj/help-proj.css');
+@import url('./footer/footer.css');
+
+@import url('./media/media380.css') (max-width: 380px);

@@ -1,68 +1,68 @@
-.new-artefacts{
-    padding-bottom: 60px;
-    background-color: var(--dark-pine-green);
+.new-artefacts {
+  padding-bottom: 60px;
+  background-color: var(--dark-pine-green);
 }
 
-.new-artefacts__container{
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
+.new-artefacts__container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
 }
 
-.new-artefacts__title{
-    font-size: 48px;
-    font-family: Cormorant, sans-serif;
-    font-style: italic;
-    font-weight: 700;
-    color: var(--white);
+.new-artefacts__title {
+  font-size: 48px;
+  font-family: Cormorant, sans-serif;
+  font-style: italic;
+  font-weight: 700;
+  color: var(--white);
 }
 
-.new-artefacts__block{
-    display: flex;
-    gap: 30px;
+.new-artefacts__block {
+  display: flex;
+  gap: 30px;
 }
 
-.new-artefacts__img{
-    width: auto;
-    max-height: 493px;
+.new-artefacts__img {
+  width: 825px;
+  height: 493px;
 }
 
-.banner{
-    padding: 16px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: start;
-    background-color: var(--energos);
+.banner {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+  background-color: var(--energos);
 }
 
-.banner__header{
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
+.banner__header {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
 }
 
-.banner__title{
-    font-size: 24px;
-    font-family: Cormorant, sans-serif;
-    font-weight: 700;
-    color: var(--dark-pine-green);
+.banner__title {
+  font-size: 24px;
+  font-family: Cormorant, sans-serif;
+  font-weight: 700;
+  color: var(--dark-pine-green);
 }
 
-.banner__text{
-    font-size: 16px;
-    font-family: "Open-Sans", sans-serif;
-    font-weight: 400;
-    color: var(--green-leaf);
+.banner__text {
+  font-size: 16px;
+  font-family: 'Open-Sans', sans-serif;
+  font-weight: 400;
+  color: var(--green-leaf);
 }
 
 .banner__link {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-  
-    font-family: "Open-Sans", sans-serif;
-    font-weight: 700;
-    font-size: 16px;
-    color: var(--black-stallion);
-  }
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  font-family: 'Open-Sans', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  color: var(--black-stallion);
+}

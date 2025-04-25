@@ -10,7 +10,7 @@
 }
 
 .get-started__title {
-  width: 688px;
+  max-width: 688px;
   margin-bottom: 16px;
 
   font-family: Cormorant, sans-serif;
@@ -21,10 +21,10 @@
 }
 
 .get-started__text {
-  width: 688px;
+  max-width: 688px;
   padding-bottom: 24px;
 
-  font-family: "Open-Sans", sans-serif;
+  font-family: 'Open-Sans', sans-serif;
   font-weight: 400;
 
   font-size: 16px;
@@ -33,11 +33,11 @@
 
 .get-started__link {
   display: flex;
- 
+
   align-items: center;
   gap: 8px;
 
-  font-family: "Open-Sans", sans-serif;
+  font-family: 'Open-Sans', sans-serif;
   font-weight: 700;
   font-size: 16px;
   color: var(--energos);
