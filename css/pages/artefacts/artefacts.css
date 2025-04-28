@@ -11,22 +11,26 @@
 }
 
 .gallery {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(1, 1fr);
   gap: 30px;
   align-items: stretch;
-  
+
 }
 
 .gallery__item {
   border: 1px solid var(--black-stallion);
   display: flex;
   flex-direction: column;
-  align-items: stretch;
+  align-items: center;
 }
+
 
 .gallery__image img {
   width: 255px;
   height: auto;
+  text-align: center;
 }
 
 .gallery__inf-artefact {
