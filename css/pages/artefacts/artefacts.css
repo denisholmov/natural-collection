@@ -64,6 +64,11 @@
   font-weight: 400;
 }
 
+.gallery__btn:hover{
+  background-color: var(--energos);
+  color: var(--black-stallion);
+}
+
 .artefacts__slider {
   text-align: center;
   color: var(--white);

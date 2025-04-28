@@ -34,6 +34,10 @@
   white-space: nowrap;
 }
 
+.header__link:hover{
+  color: var(--energos);
+}
+
 .menu-buttons__list {
   display: flex;
   gap: 64px;

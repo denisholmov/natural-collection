@@ -53,3 +53,7 @@
     font-size: 16px;
     font-weight: 700;
 }
+
+.help-proj__btn:hover{
+    background-color: var(--lime-it-or-leave-it);
+}
