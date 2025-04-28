@@ -39,6 +39,11 @@
   gap: 64px;
 }
 
+.menu-buttons__item button{
+  background-color: inherit;
+  vertical-align: middle;
+}
+
 .menu-buttons__item img {
   vertical-align: middle;
 }
