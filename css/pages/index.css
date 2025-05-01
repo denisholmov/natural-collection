@@ -6,7 +6,6 @@
 @import url('./help-proj/help-proj.css');
 @import url('./footer/footer.css');
 
-@import url('./media/media1150.css') (max-width: 1150px);
+@import url('./media/media1200.css') (max-width: 1200px);
+@import url('./media/media768.css') (max-width: 768px);
 @import url('./media/media380.css') (max-width: 380px);
-
-

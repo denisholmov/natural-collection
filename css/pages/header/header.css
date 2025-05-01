@@ -8,10 +8,15 @@
   justify-content: space-between;
 }
 
+.header__logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .header__logo img {
-  width: 100%;
-  height: auto;
-  vertical-align: middle;
+  max-width: 100%;
+  max-height: 100%;
 }
 
 .header__menu {
@@ -34,7 +39,7 @@
   white-space: nowrap;
 }
 
-.header__link:hover{
+.header__link:hover {
   color: var(--energos);
 }
 
@@ -43,7 +48,7 @@
   gap: 64px;
 }
 
-.menu-buttons__item button{
+.menu-buttons__item button {
   background-color: inherit;
   vertical-align: middle;
 }

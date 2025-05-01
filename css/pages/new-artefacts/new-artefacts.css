@@ -67,6 +67,6 @@
   color: var(--black-stallion);
 }
 
-.banner__link:hover{
+.banner__link:hover {
   opacity: 0.7;
 }

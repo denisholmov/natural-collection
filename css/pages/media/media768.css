@@ -1,0 +1,20 @@
+@media (max-width: 768px) {
+  [class*='__container'] {
+    max-width: 600px;
+  }
+
+  .header__list {
+    flex-direction: column;
+  }
+
+  /* new-artefacts ============ */
+  .new-artefacts__container {
+    text-align: center;
+    width: 255px;
+    overflow: hidden;
+  }
+
+  .banner {
+    align-self: flex-start;
+  }
+}
